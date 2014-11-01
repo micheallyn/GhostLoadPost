@@ -44,11 +44,11 @@ Use the sqllite database manager which you are family with, open up the database
 
 In this case, the app'name is `loadpost`, the value of `activeApps` should be `["loadpost"]`. Double quotes are required.
 
-{<1>}![Install app LoadPost](/content/images/2014/10/loadpost-install-up.png)
+![Install app LoadPost](http://w3ball.com/content/images/2014/10/loadpost-install-up.png)
 
 Once added, restart Ghost and app will be installed & loaded. Once success, you can see the field `installedApps` also contains `["loadpost"]`.
 
-{<2>}![LoadPost is installed and activated](/content/images/2014/10/loadpost-install-ok-up.png)
+![LoadPost is installed and activated](http://w3ball.com/content/images/2014/10/loadpost-install-ok-up.png)
 
 
 
