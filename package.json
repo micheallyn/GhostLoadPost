@@ -1,0 +1,31 @@
+{
+    "name": "loadpost",
+    "version": "0.0.1",
+    "description": "Load a post in a widget",
+    "author": "Micheal Lyn",
+    "homepage"    : "http://w3ball.com",
+
+    "licenses" : [
+    {
+        "type": "MIT"
+    }
+    ],
+    "main": "index.js",
+    "engines": {
+        "node": "0.10.*"
+    },
+    "engineStrict": true,
+    "dependencies": {
+        "ghost-app": "~0.0.3",
+        "lodash": "~2.4.1"
+    },
+    "devDependencies": {
+    },
+    "ghost": {
+        "permissions": {
+            "api.settings": ["read"],
+            "api.posts": ["browse", "read"],
+            "helpers": ["create", "edit", "register", "registerAsync"]
+        }
+    }
+}
